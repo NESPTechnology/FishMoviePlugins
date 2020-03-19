@@ -11,17 +11,9 @@
   "engineVerCode": -1,
   "hostUrl": "",
   "intro": "",
+
   "mainPageUrl": "",
   "mainPageScript": "",
-  "moviePageUrl": "",
-  "soapPageUrl": "",
-  "varietyPageUrl": "",
-  "animPageUrl": "",
-  "searchPageUrl": "",
-  "searchPageScript": "",
-  "videosPageScript": "",
-  "playPageScript": "",
-  "playUrlParserScript": "",
   "mainVideoPageDsl": {
     "slideList": "",
     "slideTitle": "",
@@ -63,6 +55,12 @@
     "newCommonScore": "",
     "newCommonInfoUrl": ""
   },
+
+  "moviePageUrl": "",
+  "soapPageUrl": "",
+  "varietyPageUrl": "",
+  "animPageUrl": "",
+  "videosPageScript": "",
   "videosPageDsl": {
     "classGroupList": "",
     "classList": "",
@@ -76,6 +74,25 @@
     "videoInfoUrl": "",
     "nextPageUrl": ""
   },
+
+  "searchPageUrl": "",
+  "searchPageScript": "",
+  "searchPageDsl": {
+    "videoList": "",
+    "videoImgUrl": "",
+    "videoClass": "",
+    "videoStarts": "",
+    "videoDirector": "",
+    "videoUpdateTime": "",
+    "videoType": "",
+    "videoName": "",
+    "videoScore": "",
+    "videoInfoUrl": "",
+    "nextPageUrl": ""
+  },
+
+  "playPageScript": "",
+  "playUrlParserScript": "",
   "playPageDsl": {
     "episodeGroupList": "",
     "episodeList": "",
@@ -90,17 +107,5 @@
     "introduction": "",
     "updateTime": ""
   },
-  "searchPageDsl": {
-    "videoList": "",
-    "videoImgUrl": "",
-    "videoClass": "",
-    "videoStarts": "",
-    "videoDirector": "",
-    "videoUpdateTime": "",
-    "videoType": "",
-    "videoName": "",
-    "videoScore": "",
-    "videoInfoUrl": "",
-    "nextPageUrl": ""
-  }
+
 }
