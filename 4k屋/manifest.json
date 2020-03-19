@@ -24,6 +24,63 @@
     "快速"
   ],
   "vipCode": 0,
-  "verCode": 1,
-  "engineVerCode": 1
+  "verCode": 5,
+  "engineVerCode": 1,
+  "mainVideoPageDsl": {
+    "slideList": "#focus > ul > li",
+    "slideTitle": "a > span > em@text",
+    "slideImgUrl": "a > img@data-src",
+    "slideInfoUrl": "a@href",
+    "newMovieList": "class.main.1/tag.li",
+    "newSoapList": "class.main.2/tag.li",
+    "newVarietyList": "class.main.4/tag.li",
+    "newAnimList": "class.main.3/tag.li",
+    "newCommonImgUrl": "a > div > img@src",
+    "newCommonTitle": "a > div > label.title@text",
+    "newCommonName": "a@title",
+    "newCommonScore": "a > div > label.score@text",
+    "newCommonInfoUrl": "a@href"
+  },
+  "videosPageDsl": {
+    "classGroupList": "body > div.list-nav > div.list-fen > div > ul > li",
+    "classList": "div > a",
+    "className": "@text",
+    "classUrl": "@href",
+    "videoList": "#vod_list > li",
+    "videoImgUrl": "a > div > img@src",
+    "videoTitle": "a > div > label.title@text",
+    "videoName": "a@title",
+    "videoScore": "a > div > label.score@text",
+    "videoInfoUrl": "a@href",
+    "nextPageUrl": "body > div.ui-vpages > a:containsOwn(下一页)@href"
+  },
+  "playPageDsl": {
+    "episodeGroupList": "#con_vod_1 > div.play-box",
+    "episodeList": "ul.plau-ul-list > li",
+    "episodeName": "a@title",
+    "episodeUrl": "a@href",
+    "episodeListReversed": true,
+    "name": "#resize_vod > div.vod-n-l > h1@text",
+    "status": "#resize_vod > div.vod-n-l > p.clear.fn-left@text",
+    "stars": "#resize_vod > div.vod-n-l > p.vw100.clear@textContent",
+    "director": "#resize_vod > div.vod-n-l > p.vw50.fn-left@textContent",
+    "area": "#resize_vod > div.vod-n-l > p.vw50.yc.fn-right@textContent",
+    "introduction": "#con_vod_2 > div@text",
+    "updateTime": "#resize_vod > div.vod-n-l > p:nth-child(7)@text"
+  },
+  "searchPageDsl": {
+    "videoList": "body > div.main > div.all_tab.top > ul.new_tab_img > li",
+    "videoImgUrl": "a > div > img@src",
+    "videoClass": "div > p:nth-child(2)@textContent",
+    "videoStarts": "div > p:nth-child(4)@textContent",
+    "videoDirector": "",
+    "videoUpdateTime": "div > p:nth-child(6)@textContent",
+    "videoType": "div > p:nth-child(3)@textContent",
+    "videoName": "a@title",
+    "videoScore": "",
+    "videoInfoUrl": "a@href",
+    "nextPageUrl": "body > div.main > div.ui-vpages > a:containsOwn(下一页)@href"
+  }
 }
+
+
